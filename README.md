@@ -2,7 +2,7 @@
 
 ## How do it
 ```bash
-bash <(curl -s https://bit.ly/35wmsfX)
+bash <(curl -s https://imaged.ml/mcinstallweb.sh)
 ```
 ## Help and support
 
