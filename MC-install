@@ -18,5 +18,5 @@ sleep 3
 sudo wget https://bigheartedgiantnumericalanalysis.adrianleanderle.repl.co/start.sh
 echo "Done Installing Start Script."
 sleep 2
-chmod +x start.sh
-echo "Start The Server Using: java -Xmx1024M -Xms1024M -jar server.jar nogui || Then Follow My Youtube Video How to do it: Soon | Or Follow My Article on Github called After-using-script.
+echo "Now Follow My Youtube Video How to do it: Soon | Or Follow My Article on Github called After-using-script.
+exit
