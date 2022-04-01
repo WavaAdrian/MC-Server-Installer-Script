@@ -1,1 +1,1 @@
-# MC-Server-Installer-Script
+# MC-Server Installer Script
