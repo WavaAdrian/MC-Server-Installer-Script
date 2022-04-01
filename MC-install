@@ -1,0 +1,23 @@
+#!/bin/bash
+echo "MC Server Installer Script | Made by WavaAdrian"
+sudo apt update
+sudo apt install openjdk-17-jdk -y
+echo "Installed OpendJDK17."
+sleep 3
+sudo apt install screen -y
+echo "Installed Screen."
+sleep 3
+mkdir minecraft
+echo "Created Folder Called minecraft."
+sleep 3
+cd minecraft
+sudo apt install wget
+sudo wget https://launcher.mojang.com/v1/objects/c8f83c5655308435b3dcf03c06d9fe8740a77469/server.jar
+echo "Done Installing Minecraft Server Jar file."
+sleep 3
+sudo wget https://bigheartedgiantnumericalanalysis.adrianleanderle.repl.co/start.sh
+echo "Done Installing Start Script."
+sleep 2
+chmod +x start.sh
+echo "Start The Server Using: java -Xmx1024M -Xms1024M -jar server.jar nogui || After Run bash <(curl -s https://pterodactyl-installer.se)"
+exit
