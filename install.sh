@@ -2,6 +2,7 @@
 
 PS3='Please enter your choice: '
 clear
+echo "MC Server Installer Menu"
 options=("Begin The Script" "Quit")
 select opt in "${options[@]}"
 do
