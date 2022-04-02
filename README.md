@@ -11,6 +11,11 @@ Change The Folder:
 $ cd minecraft
 ```
 
+Change User to Root:
+```run9
+$ sudo -s
+```
+
 
 Make Access to the file:
 ```run9
