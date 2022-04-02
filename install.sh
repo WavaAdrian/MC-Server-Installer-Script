@@ -1,6 +1,7 @@
 #!/bin/bash
-clear
+
 PS3='Please enter your choice: '
+clear
 options=("Begin The Script" "Quit")
 select opt in "${options[@]}"
 do
