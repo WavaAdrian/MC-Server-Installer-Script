@@ -1,10 +1,10 @@
 #!/bin/bash
+clear
 echo "_______________________________________________"
 echo ""
 echo "MC Server Installer Script | Made by WavaAdrian"
 echo ""
 echo "_______________________________________________"
-clear
 sleep 4
 sudo apt update
 sudo apt install openjdk-17-jdk -y
