@@ -3,7 +3,7 @@
 ## How do it:
 Run This Script:
 ```bash
-bash <(curl -s https://imaged.ml/mcinstallweb.sh)
+bash <(curl -s https://imaged.ml/install.sh)
 ```
 ## After you have run the script follow this steps:
 Change The Folder:
