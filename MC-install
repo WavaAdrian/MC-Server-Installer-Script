@@ -1,6 +1,72 @@
 #!/bin/bash
-echo "MC Server Installer Script | Made by WavaAdrian"
-sleep 3
+
+RED="\e[0;91m"
+BLUE="\e[0;94m"
+BOLD="\e[1m"
+RESET="\e[0m"
+
+
+# DEFINE LATEST JAR
+LATEST=`curl -fsSL 'https://launchermeta.mojang.com/mc/game/version_manifest.json' |jq -r '.latest.release'`
+
+# DEFINE URL
+MANIFEST_URL=`curl -fsSL 'https://launchermeta.mojang.com/mc/game/version_manifest.json' |jq -r '.versions[] |select(.id=="'"$LATEST"'") |.url'`
+
+# URL CONT'D
+JAR_URL=`curl -fsSL "$MANIFEST_URL" |jq -r '.downloads.server.url'`
+
+echo "--------------------------------"
+echo ""
+echo " ${BOLD}Welcome to MC SERVER INSTALLER Script${RESET}"
+echo ""
+echo "--------------------------------"
+sleep 1.0
+echo "
+echo "--------------------------------"
+sleep 1.0
+echo "
+"
+
+echo "              ${BOLD}NOTE${RESET}"
+echo "            --------"
+echo "${RED}YOU MUST AGREE TO THE EULA PRIOR"
+echo "    TO RUNNING THE SERVER"
+echo "       FIRST TIME ONLY${RESET}"
+echo ""
+sleep 1.5
+
+while [ answer != "0" ]  
+do 
+clear 
+
+
+echo "-------------------------------------"
+echo ""
+echo "     MINECRAFT SERVER INSTALLER Script"
+echo "               MENU              "
+echo "           Made By WavaAdrian         "
+echo "-------------------------------------"
+echo ""
+echo "Select from the following options: " 
+echo ""
+echo "1) Begin The Install"
+echo "2) Quit"
+echo "" 
+read -p "Choice: " answer 
+clear
+  
+case $answer in 
+       1) echo "Beginning The Script..."
+       echo "" 
+       
+       8) break ;; 
+   esac  
+   echo "press RETURN for menu" 
+   read key 
+done 
+exit 0
+
+sleep 1.5
 sudo apt update
 sudo apt install openjdk-17-jdk -y
 echo "Installed OpendJDK17."
@@ -13,7 +79,9 @@ echo "Created Folder Called minecraft."
 sleep 3
 cd minecraft
 sudo apt install wget
-sudo wget https://launcher.mojang.com/v1/objects/c8f83c5655308435b3dcf03c06d9fe8740a77469/server.jar
+echo "Downloading the latest server.jar..."
+       echo "" 
+       curl -so server.jar $JAR_URL
 echo "Done Installing Minecraft Server Jar file."
 sleep 3
 sudo wget https://bigheartedgiantnumericalanalysis.adrianleanderle.repl.co/start.sh
