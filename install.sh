@@ -1,8 +1,6 @@
 #!/bin/bash
 
 PS3='Please enter your choice: '
-output "MC Server Installer Menu"
-clear
 options=("Begin The Script" "Quit")
 select opt in "${options[@]}"
 do
