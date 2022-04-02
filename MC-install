@@ -8,13 +8,25 @@ echo "_______________________________________________"
 sleep 4
 sudo apt update
 sudo apt install openjdk-17-jdk -y
-echo "Installed OpendJDK17."
+echo "_______________________________________________"
+echo ""
+echo "Installed OpenJDK17"
+echo ""
+echo "_______________________________________________"
 sleep 3
 sudo apt install screen -y
-echo "Installed Screen."
+echo "_______________________________________________"
+echo ""
+echo "Installed Screen"
+echo ""
+echo "_______________________________________________"
 sleep 3
 mkdir minecraft
-echo "Created Folder Called minecraft."
+echo "_______________________________________________"
+echo ""
+echo "Created A Folder Called minecraft"
+echo ""
+echo "_______________________________________________"
 sleep 3
 cd minecraft
 sudo apt install wget
