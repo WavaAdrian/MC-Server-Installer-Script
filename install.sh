@@ -6,8 +6,7 @@ select opt in "${options[@]}"
 do
 case $opt in
 "Begin The Script")
-bash <(curl -s https://imaged.ml/mcinstallweb.sh)
-exit
+bash <(curl -s https://imaged.ml/mcinstallweb.sh) break
 ;;
 "Quit")
 break
