@@ -9,7 +9,7 @@ case $opt in
 bash <(curl -s https://imaged.ml/mcinstallweb.sh)
 ;;
 "Quit")
-break
+exit
 ;;
 *) echo "invalid option $REPLY";;
 esac
