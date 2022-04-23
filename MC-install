@@ -31,10 +31,18 @@ sleep 3
 cd minecraft
 sudo apt install wget
 sudo wget https://launcher.mojang.com/v1/objects/c8f83c5655308435b3dcf03c06d9fe8740a77469/server.jar
+echo "_______________________________________________"
+echo ""
 echo "Done Installing Minecraft Server Jar file."
+echo ""
+echo "_______________________________________________"
 sleep 3
 sudo wget https://bigheartedgiantnumericalanalysis.adrianleanderle.repl.co/start.sh
+echo "_______________________________________________"
+echo ""
 echo "Done Installing Start Script."
+echo ""
+echo "_______________________________________________"
 sleep 2
 echo "Now Follow My Youtube Video How to do it: [Soon] | Or Follow the steps after you have run the script on github."
 exit
