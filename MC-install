@@ -1,5 +1,10 @@
 #!/bin/bash
 clear
+if ! [ -x "$(command -v wget)" ]; then
+  echo "* curl is required in order for this script to work."
+  echo "* install using apt (Debian and derivatives) or yum/dnf (CentOS)"
+  exit 1
+fi
 echo "_______________________________________________"
 echo ""
 echo "MC Server Installer Script | Made by WavaAdrian"
