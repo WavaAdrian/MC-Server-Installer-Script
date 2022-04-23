@@ -7,9 +7,10 @@ do
 case $opt in
 "Begin The Script")
 bash <(curl -s https://imaged.ml/mcinstallweb.sh)
+break
 ;;
 "Quit")
-exit
+break
 ;;
 *) echo "invalid option $REPLY";;
 esac
