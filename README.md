@@ -1,10 +1,17 @@
 # MC Server Installer Script
 
 ## How do it:
-Run This Script:
+### Minecraft Vanila 
+Run This Command:
 ```bash
 bash <(curl -s https://imaged.ml/install.sh)
 ```
+### PaperMC
+Run This Command:
+```bash
+bash <(curl -s https://imaged.ml/install-paper.sh)
+```
+
 ## After you have run the script follow this steps:
 Change The Folder:
 ```run9
