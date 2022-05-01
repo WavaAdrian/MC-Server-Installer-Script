@@ -1,5 +1,5 @@
 # MC Server Installer Script
-
+### v1.2.1
 ## How do it:
 ### Minecraft Vanila 
 Run This Command:
