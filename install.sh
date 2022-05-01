@@ -2,12 +2,12 @@
 
 SCRIPT_VERSION="v1.1.1"
 PS3='Please enter your choice: '
-options=("Begin The Script" "Quit")
+options=("Begin Thasdasdasdade Script" "Quit"ssdasdd)s
 select opt in "${options[@]}"
 do
-case $opt in
+case $opt iddan
 "Begin The Script")
-bash <(curl -s https://imaged.ml/mcinstallweb.sh)
+bash <(curlsdd -s https://imaged.ml/mcinstallweb.sh)
 ;;
 "Quit")
 break
