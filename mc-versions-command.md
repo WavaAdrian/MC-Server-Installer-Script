@@ -2,6 +2,10 @@
 ### Versions: 1.8 - 1.18.2
 ## Commands
 
+Latest Version:
+```bash
+bash <(curl -s https://imaged.ml/install.sh)
+```
 1.18.2:
 ```bash
 bash <(curl -s https://imaged.ml/mc-version-1.18.2)
@@ -14,7 +18,6 @@ bash <(curl -s https://imaged.ml/mc-version-1.18.1)
 ```bash
 bash <(curl -s https://imaged.ml/mc-version-1.18)
 ```
-## Commands Under this text is not ready please wait.
 1.17.1:
 ```bash
 bash <(curl -s https://imaged.ml/mc-version-1.17.1)
@@ -23,6 +26,7 @@ bash <(curl -s https://imaged.ml/mc-version-1.17.1)
 ```bash
 bash <(curl -s https://imaged.ml/mc-version-1.17)
 ```
+## Commands Under this text is not ready please wait.
 1.16.5:
 ```bash
 bash <(curl -s https://imaged.ml/mc-version-1.16.5)
