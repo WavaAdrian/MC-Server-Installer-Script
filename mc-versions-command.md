@@ -14,6 +14,7 @@ bash <(curl -s https://imaged.ml/mc-version-1.18.1)
 ```bash
 bash <(curl -s https://imaged.ml/mc-version-1.18)
 ```
+## Commands Under this text is not ready please wait.
 1.17.1:
 ```bash
 bash <(curl -s https://imaged.ml/mc-version-1.17.1)
