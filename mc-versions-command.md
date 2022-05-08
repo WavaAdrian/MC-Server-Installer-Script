@@ -62,7 +62,6 @@ bash <(curl -s https://imaged.ml/mc-version-1.15.1)
 ```bash
 bash <(curl -s https://imaged.ml/mc-version-1.15)
 ```
-## Commands Under this text is not ready please wait.
 1.14.4:
 ```bash
 bash <(curl -s https://imaged.ml/mc-version-1.14.4)
@@ -107,6 +106,7 @@ bash <(curl -s https://imaged.ml/mc-version-1.12.1)
 ```bash
 bash <(curl -s https://imaged.ml/mc-version-1.12)
 ```
+## Commands Under this text is not ready please wait.
 1.11.2:
 ```bash
 bash <(curl -s https://imaged.ml/mc-version-1.11.2)
