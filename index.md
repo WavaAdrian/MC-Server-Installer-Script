@@ -1,37 +1,68 @@
-## Welcome to GitHub Pages
-
-You can use the [editor on GitHub](https://github.com/WFH-Community/MC-Server-Installer-Script/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+# MC Server Installer Script
+### v1.2.3
+## How do it:
+### Minecraft Vanila 
+Run This Command:
+```bash
+bash <(curl -s https://imaged.ml/install.sh)
+```
+### PaperMC
+Run This Command:
+```bash
+bash <(curl -s https://imaged.ml/install-paper.sh)
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+## After you have run the script follow this steps:
+Change The Folder:
+```run9
+$ cd minecraft
+```
 
-### Jekyll Themes
+Change User to Root:
+```run9
+$ sudo -s
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/WFH-Community/MC-Server-Installer-Script/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+Make Access to the file:
+```run9
+$ chmod +x start.sh
+```
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+Run The Server:
+```run1
+$ java -Xmx1024M -Xms1024M -jar server.jar nogui
+```
+
+Change The Eula:
+```run2
+$ sudo nano eula.txt
+```
+
+Change eula=false to eula=true :
+```run3
+#By changing the setting below to TRUE you are indicating your agreement to our EULA (https://account.mojang.com/documents/minecraft_eula).
+"eula=false" To "eula=true"
+```
+
+Create a screen instance for the server:
+```run4
+$ sudo screen -S "Minecraft Server"
+```
+
+Start your server script:
+```run5
+$ ./start.sh
+```
+
+To exit the screen session, press CTRL + A then D. To resume the screen session, run:
+```run6
+$ sudo screen -R
+```
+
+
+## Help and support
+
+For help and support you can join the [Discord Server](https://BigheartedGiantNumericalanalysis.adrianleanderle.repl.co/discord).
+
