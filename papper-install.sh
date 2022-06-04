@@ -7,7 +7,7 @@ select opt in "${options[@]}"
 do
 case $opt in
 "Begin The Script")
-bash <(curl -s https://raw.githubusercontent.com/WFH-Community/MC-Server-Installer-Script/main/pappermc-install.sh)
+bash <(curl -s https://raw.githubusercontent.com/WavaAdrian/MC-Server-Installer-Script/main/pappermc-install.sh)
 ;;
 "Quit")
 break
