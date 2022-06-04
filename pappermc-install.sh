@@ -31,7 +31,7 @@ echo "_______________________________________________"
 sleep 3
 cd minecraft
 sudo apt install wget
-sudo wget https://papermc.io/api/v2/projects/paper/versions/1.18.2/builds/329/downloads/paper-1.18.2-329.jar
+sudo wget https://api.papermc.io/v2/projects/paper/versions/1.18.2/builds/372/downloads/paper-1.18.2-372.jar
 echo "_______________________________________________"
 echo ""
 echo "Done Installing PapperMC Server Jar file."
