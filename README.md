@@ -1,4 +1,5 @@
 # MC Server Installer Script
+## Warning! This Project is discontinued. 
 ### v1.3.1
 ## How do it:
 ### Minecraft Vanila 
